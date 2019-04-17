@@ -1,1 +1,5 @@
 lxml
+dicttoxml
+xmltodict
+pytz
+requests
