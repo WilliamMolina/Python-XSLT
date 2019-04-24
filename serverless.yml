@@ -25,6 +25,13 @@ functions:
       - http:
           path: trans
           method: post
+  
+  post_xml:
+    handler: runner.post_xml
+    events:
+      - http:
+          path: soap
+          method: post
 
 #This creates an s3 bucket
 resources:
